@@ -1,0 +1,13 @@
+version: "0.8"
+
+services:
+  notifier-bot:
+    build: .
+    container_name: notifier-bot
+    network_mode: host
+    environment:
+      - TZ=Europe/Rome
+    volumes:
+      - /home/matteo/_Radio/notifierbot:/bot
+    restart: unless-stopped
+

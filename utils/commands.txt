@@ -1,0 +1,4 @@
+/aggiungi - seleziona i programmi per cui vuoi ricevere una notifica
+/rimuovi - rimuovi i programmi di cui non vuoi ricevere notifiche
+/preferiti - visualizza i programmi per cui riceverai una notifica
+/help - info sui comandi
